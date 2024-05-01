@@ -1,0 +1,100 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main content styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color:  #844747;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Project section styles */
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .project p {
+    color:#666;
+    line-height: 1.5;
+  }
+  
+  /* Button styles */
+  .project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   margin-top: 15px;
+  }
+  
+  
+  .project-buttons button {
+    background-color: #8bc34a; /* Light green */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .project-buttons button:hover {
+    background-color: #7cb342; /* Darker shade of light green on hover */
+  }
+  
+  .project-buttons button a {
+    text-decoration: none; /* Remove underline from link */
+  }
+  button a{
+    color: white;
+    font-size: 15px;
+  }
